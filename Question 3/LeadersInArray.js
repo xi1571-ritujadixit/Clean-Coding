@@ -2,20 +2,18 @@
 
 function findLeaders(inputArray){
     
-    var rightmostElement = inputArray[inputArray.length-1];
-    var leadersArray = [rightmostElement];
+    var rightMostElement = inputArray[inputArray.length-1];
+    var leadersArray = [rightMostElement];
     
     for(var i = inputArray.length-1; i >= 0; i--){
     
-        if(inputArray[i] > rightmostElement) {
-            rightmostElement = inputArray[i];
+        if(inputArray[i] > rightMostElement) {
+            rightMostElement = inputArray[i];
             leadersArray.push(inputArray[i])      
         }
     }
     
     return leadersArray;
 }
-
-// console.log(findLeaders([13, 5, 4, 32, 5, 1]));
 
 module.exports = findLeaders
