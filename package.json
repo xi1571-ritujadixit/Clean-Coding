@@ -1,0 +1,14 @@
+{
+  "name": "cleancoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LargestSubarraySum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rituja Dixit",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
